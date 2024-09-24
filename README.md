@@ -27,3 +27,8 @@ This project was created by Semir Awel Hadi, Founder and CEO of K3ST.
 
 ## Trademark
 !K3ST Logo
+
+git add README.md
+git commit -m "Add README with project details"
+git push origin main
+
