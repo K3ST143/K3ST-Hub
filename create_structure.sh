@@ -1,5 +1,4 @@
-chmod +x create_structure.sh
-./create_structure.sh
+
 #!/bin/bash
 # Create main directories
 mkdir -p K3ST-Hub/{api,bots,tests,docs,src,app,lambda,mobile,translations}
@@ -51,3 +50,8 @@ mkdir -p K3ST-Hub/tests
 touch K3ST-Hub/tests/{test_auth.py,test_user.py,test_transaction.py,test_blockchain.py,test_market.py,test_rewards.py,test_tasks.py}
 
 echo "Directory structure created successfully!"
+
+chmod +x create_structure.sh
+
+./create_structure.sh
+
